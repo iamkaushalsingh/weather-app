@@ -2,6 +2,8 @@
 
 WeatherApp is a dynamic and interactive web application that provides real-time weather updates for any city. The app fetches weather data using the Weather API and displays details such as temperature, humidity, wind speed, and more. It also changes its background to match the current weather condition.
 
+
+
 ## Features
 
 - **Current Weather**: Displays temperature, humidity, wind speed, and pressure.
@@ -12,7 +14,8 @@ WeatherApp is a dynamic and interactive web application that provides real-time 
 
 ## Demo
 
-![WeatherApp Screenshot](path_to_screenshot.png)
+https://weather-app-roan-one-26.vercel.app
+https://iamkaushalsingh.github.io/weather-app/
 
 ## Technologies Used
 
