@@ -14,8 +14,8 @@ WeatherApp is a dynamic and interactive web application that provides real-time 
 
 ## Demo
 
-https://weather-app-roan-one-26.vercel.app
-https://iamkaushalsingh.github.io/weather-app/
+- **Vercel**: https://weather-app-roan-one-26.vercel.app
+- **GitHub**: https://iamkaushalsingh.github.io/weather-app/
 
 ## Technologies Used
 
