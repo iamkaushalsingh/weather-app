@@ -1,0 +1,80 @@
+/* Background with animation for changing weather conditions */
+body {
+    background: linear-gradient(to top, #fff, #87cefa); /* Default sunny sky background */
+    animation: weatherChange 20s infinite; /* Animation cycles through different weather */
+    color: rgb(255, 255, 255); /* Text color */
+}
+
+/* Keyframes for background animation */
+@keyframes weatherChange {
+    0% {
+        background: linear-gradient(to top, #fff, #87cefa); /* Sunny */
+    }
+    50% {
+        background: linear-gradient(to top, #b0c4de, #708090); /* Cloudy */
+    }
+    100% {
+        background: linear-gradient(to top, #4682b4, #2f4f4f); /* Stormy */
+    }
+}
+
+.navbar-brand {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+/* Container max width */
+.container {
+    max-width: 1300px;
+}
+
+/* Card title styling */
+.card-title {
+    font-size: 2.5rem;
+}
+
+/* Table cell vertical alignment */
+.table th,
+.table td {
+    vertical-align: middle;
+}
+
+/* Footer styling */
+footer {
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    padding: 4px 2px;  /* Increased padding for more space */
+    background: #16a3b8;
+}
+
+
+
+/* Make the card interactive */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both transform and box-shadow */
+    margin-bottom: 100px; /* Adds more space between the cards */
+}
+/* Add padding inside card-body for more space between content */
+.card-body {
+    padding-top: 10px;
+    padding: 25px; /* Adjust padding as needed */
+}
+.card:hover {
+    transform: translateY(-10px); /* Moves the card 10px upwards */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds shadow to create a "floating" effect */
+}
+
+/* Add custom margin between first and second card (if needed specifically) */
+.row.g-4 {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    margin: 0px;
+    gap: 30px; /* Creates consistent spacing between the cards */
+}
+
+  /* Optional: Adjust font color to make it easier to read against various backgrounds */
+body {
+    color: rgb(0, 0, 0); /* White text color for contrast against dark backgrounds */
+}
